@@ -1,0 +1,115 @@
+@media screen and (max-width: 1200px){
+    .container {
+        max-width: 960px;
+    }
+
+}
+
+@media screen and (max-width: 992px){
+    .container {
+        max-width: 720px;
+    }
+    .promo__wrapper{
+        align-items: center;
+    }
+    .header{
+        justify-content: space-around;
+    }
+    .advantages__wrapper{
+        padding: 0 15px 0 15px;
+    }
+    .consultation{
+        .title_left{
+            text-align: center;
+        }
+        .consultation__descr{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .feed-form{
+            margin: 0 auto;
+        }
+    }
+    .slick-prev{
+        display: none;
+        }
+    .pageup {
+        img {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .header {
+        &__logo {
+            width: 150px;
+        }
+    }
+    .header__phone {
+        font-size: 17px;
+    }
+    .advantages {
+        &__wrapper {
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-content: center;
+            .advantages__item {
+                margin-top: 10px;
+            }
+        }
+    }
+    .carousel {
+        button {
+            img {
+                display: none;
+            }
+        }
+    }
+    .catalog {
+        &__content {
+            justify-content: center;
+        }
+    }
+    .feed {
+        .feed__img {
+            width: 150px;
+        }
+        &__text {
+            margin-left: 23px;
+            padding: 0;
+        }
+        &__descr {
+            font-size: 14px;
+        }
+    }     
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .header {
+        flex-wrap: wrap;
+        &__contacts {
+            margin-left: 184px;
+        }
+    }
+    .promo__icons {
+        width: 330px;
+    }
+    .slick-slide img {
+        width: 100%;
+    }
+    .catalog__tabs {
+        flex-direction: column;
+    }
+    .feed__item {
+        flex-direction: column;
+        align-items: center;
+    }
+}
